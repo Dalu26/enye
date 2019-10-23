@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Birthday from './components/birthday';
+import Calendar from './components/calendar';
 
 class App extends React.Component {
   constructor(props) {
@@ -62,7 +62,7 @@ class App extends React.Component {
             required
           />
 
-          <Birthday
+          <Calendar
             myChangeHandler={this.myChangeHandler}
             required
             type="date"

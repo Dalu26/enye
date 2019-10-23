@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Birthday = (props) => {
+const Calendar = (props) => {
   return (
     <input
       {...props}
@@ -9,4 +9,4 @@ const Birthday = (props) => {
   )
 }
 
-export default Birthday
+export default Calendar;
