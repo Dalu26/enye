@@ -6,7 +6,6 @@ const Birthday = (props) => {
       {...props}
       onChange={props.myChangeHandler}
     />
-
   )
 }
 
